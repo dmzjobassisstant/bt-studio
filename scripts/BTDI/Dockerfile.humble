@@ -31,7 +31,7 @@ RUN chmod +x /start_vnc.sh /kill_all.sh /entrypoint.sh /start_vnc_gpu.sh /set_dr
 
 # Bt-Studio
 ARG BT_STUDIO=$BT_STUDIO
-RUN git clone --depth 1 https://github.com/JdeRobot/bt-studio.git -b $BT_STUDIO /BtStudio/
+RUN git clone --depth 1 https://github.com/dmzjobassisstant/bt-studio.git -b $BT_STUDIO /BtStudio/
 
 # Compiling and sourcing the workspace
 WORKDIR /home/ws

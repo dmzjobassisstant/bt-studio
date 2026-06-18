@@ -5,7 +5,7 @@ gpu_mode="false"
 nvidia="false"
 base_path_offline="compose_cfg/"
 compose_file="user_humble_cpu"
-base_path_online="https://raw.githubusercontent.com/JdeRobot/bt-studio/main/compose_cfg/"
+base_path_online="https://raw.githubusercontent.com/dmzjobassisstant/bt-studio/main/compose_cfg/"
 
 
 # Function to clean up the containers
